@@ -28,6 +28,10 @@ Vue.component('product-review', {
             </select>
         </p>
         <p>
+            <label for="recommend">Would you recomment this product?</label>
+            <textarea id="review" v-model="review"></textarea>
+        </p>
+        <p>
             <input type="submit" value="Submit">
         </p>
     </form>
